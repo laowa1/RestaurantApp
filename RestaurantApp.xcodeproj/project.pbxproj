@@ -12,9 +12,10 @@
 		A289F104260F67B7003B34E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A289F102260F67B7003B34E9 /* Main.storyboard */; };
 		A289F106260F67BA003B34E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A289F105260F67BA003B34E9 /* Assets.xcassets */; };
 		A289F109260F67BA003B34E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A289F107260F67BA003B34E9 /* LaunchScreen.storyboard */; };
-		A289F113260F68BD003B34E9 /* MyPlaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A289F112260F68BD003B34E9 /* MyPlaceController.swift */; };
+		A289F113260F68BD003B34E9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A289F112260F68BD003B34E9 /* MainViewController.swift */; };
 		A289F117260F696B003B34E9 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A289F116260F696B003B34E9 /* PlaceModel.swift */; };
 		A289F11B2610A0AD003B34E9 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A289F11A2610A0AD003B34E9 /* CustomTableViewCell.swift */; };
+		A2C63CBD261729D600FFADE6 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C63CBC261729D600FFADE6 /* NewPlaceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +26,10 @@
 		A289F105260F67BA003B34E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A289F108260F67BA003B34E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A289F10A260F67BA003B34E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A289F112260F68BD003B34E9 /* MyPlaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlaceController.swift; sourceTree = "<group>"; };
+		A289F112260F68BD003B34E9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A289F116260F696B003B34E9 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		A289F11A2610A0AD003B34E9 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		A2C63CBC261729D600FFADE6 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,9 @@
 				A289F0FC260F67B7003B34E9 /* AppDelegate.swift */,
 				A289F0FE260F67B7003B34E9 /* SceneDelegate.swift */,
 				A289F116260F696B003B34E9 /* PlaceModel.swift */,
-				A289F112260F68BD003B34E9 /* MyPlaceController.swift */,
+				A289F112260F68BD003B34E9 /* MainViewController.swift */,
 				A289F11A2610A0AD003B34E9 /* CustomTableViewCell.swift */,
+				A2C63CBC261729D600FFADE6 /* NewPlaceViewController.swift */,
 				A289F102260F67B7003B34E9 /* Main.storyboard */,
 				A289F105260F67BA003B34E9 /* Assets.xcassets */,
 				A289F107260F67BA003B34E9 /* LaunchScreen.storyboard */,
@@ -144,10 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A289F0FD260F67B7003B34E9 /* AppDelegate.swift in Sources */,
+				A2C63CBD261729D600FFADE6 /* NewPlaceViewController.swift in Sources */,
 				A289F11B2610A0AD003B34E9 /* CustomTableViewCell.swift in Sources */,
 				A289F117260F696B003B34E9 /* PlaceModel.swift in Sources */,
 				A289F0FF260F67B7003B34E9 /* SceneDelegate.swift in Sources */,
-				A289F113260F68BD003B34E9 /* MyPlaceController.swift in Sources */,
+				A289F113260F68BD003B34E9 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

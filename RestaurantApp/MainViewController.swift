@@ -8,7 +8,7 @@
 import UIKit
 
 
-class MyPlaceController: UITableViewController {
+class MainViewController: UITableViewController {
     
     let place = PlaceModel.getPlaces()
 
@@ -81,4 +81,5 @@ class MyPlaceController: UITableViewController {
     }
     */
 
+    @IBAction func cancelAction(_ segue: UIStoryboardSegue) {}
 }
